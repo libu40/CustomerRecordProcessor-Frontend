@@ -44,13 +44,13 @@ div {
 
 .mat-sidenav-container{
   background-color: lightskyblue;
-  min-height: 93vh !important;
+  min-height: 93vh !important;  
 }
 
 a{
-    text-decoration: none;
+    text-decoration:none;
     font-size: 110%;
-    white-space: normal;
+    text-align: center;
 }
 
 button{
@@ -69,4 +69,15 @@ button{
   .mat-sidenav-content{
       font-size: 200%;
       text-align: center;
+  }
+
+  .sidenav-container .sidenav .navigation-list .navigation-item.active {
+    background: #dcf0fb;
+    color: #062639;
+  }
+  .sidenav-container .sidenav .navigation-list .navigation-item .mat-icon {
+    margin-right: 5px;
+  }
+  .sidenav-container .sidenav .navigation-list .navigation-item .navigation-item-label {
+    padding-top: 2px;
   }
